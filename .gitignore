@@ -1,0 +1,21 @@
+# data files (keep folder structure, ignore actual data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# jupyter
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store
+
+# secrets
+.env
+notebooks/test_mongodb.py
