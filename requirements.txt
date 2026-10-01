@@ -6,3 +6,5 @@ jupyter
 openpyxl
 pymongo
 python-dotenv
+plotly
+kaleido
